@@ -18,7 +18,7 @@ Tested on : 5.1.20348.1850 Powershell Version
     <li><strong>AWS-specific Settings:</strong> Dynamically configure settings tailored for AWS environments, ensuring seamless integration.</li>
     <li><strong>Firewall Management:</strong> Set up necessary firewall rules for WinRM ports, simplifying remote access setup.</li>
     <li><strong>Automation User Setup:</strong> Create and set up automation users with ease, enhancing security and control.</li>
-    <li><strong>Certificate Management:</strong> Manage SSL certificates for secure communication, simplifying certificate handling.</li>
+    <li><strong>Certificate Management:</strong> Manage SSL Self-signed certificates for secure communication, simplifying certificate handling.</li>
     <li><strong>WinRM Configuration:</strong> Configure WinRM to enable HTTPS and create listeners, streamlining remote management.</li>
     <li><strong>Administrator Tools:</strong> Additional utilities for certificate deletion, permission group checks, and more.</li>
 </ul>
