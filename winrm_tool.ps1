@@ -52,9 +52,7 @@ function Configure-AWSSpecificSettings {
 }
 
 function Configure-Firewall {
-	    Write-Host "1) Add AWS Security Group rules for WinRM HTTPS in 0.0.0.0 and ::/0  "
-	    # Enabling WinRM ports for both IPv4 and IPv6 using New-NetFirewallRule
-	    Write-Host "2) Enabling WinRM ports for both IPv4 and IPv6 on the local server..."
+	    Write-Host " Enabling WinRM ports for both IPv4 and IPv6 on the local server..."
 	    New-NetFirewallRule -DisplayName "Allow WinRM HTTPS IPv4" -Direction Inbound -LocalPort 5986 -Protocol TCP -Action Allow
 	    # Later to fix we need to enable IPV6 because somme softwares needs IPV6 to work
 		#New-NetFirewallRule -DisplayName "Allow WinRM HTTPS IPv6" -Direction Inbound -LocalPort 5986 -Protocol TCP -Action Allow -LocalAddress ::/0
