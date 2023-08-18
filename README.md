@@ -35,6 +35,7 @@ Tested on : 5.1.20348.1850 Powershell Version
 <ul>
     <li> <code>ansible-galaxy collection install ansible.windows</code></li>
     <li> <strong>Hint:</strong> When you are using the modules in <strong>Playbooks</strong> you need to specifiy the whole objects <code>ansible.windows.win_service_info</code> </li>
+    <li> To build the Ansible inventory you have the official documentation of ansible : <strong> https://docs.ansible.com/ansible/latest/os_guide/windows_setup.html</strong> </li>
 </ul>
 
 ![image](https://github.com/Razichennouf/ansible_winrm/assets/77803582/c6f114df-3550-44d9-b5c7-c166037a276d)
