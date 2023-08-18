@@ -1,12 +1,11 @@
-<#
+<#PSScriptInfo
 .SYNOPSIS
 WinRM Deployment Utilities
 
 .DESCRIPTION
 This script provides a comprehensive set of automation utilities for managing WinRM configurations.
 
-.VERSION
-1.0
+.VERSION 1.0
 
 .AUTHOR
 Razi chennouf
