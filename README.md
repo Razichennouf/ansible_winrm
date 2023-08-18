@@ -34,7 +34,7 @@ Tested on : 5.1.20348.1850 Powershell Version
 <h2>Ansible Collection : </h2>
 <ul>
     <li> <code>ansible-galaxy collection install ansible.windows</code></li>
-    <li> <strong>Hint:</strong> When you are trying to use the modules in <strong>Playbooks</strong> you need to specifiy the whole objects <code>ansible.windows.win_service_info</code> </li>
+    <li> <strong>Hint:</strong> When you are using the modules in <strong>Playbooks</strong> you need to specifiy the whole objects <code>ansible.windows.win_service_info</code> </li>
 </ul>
 
 
