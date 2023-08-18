@@ -36,7 +36,8 @@ Tested on : 5.1.20348.1850 Powershell Version
     <li> <code>ansible-galaxy collection install ansible.windows</code></li>
     <li> <strong>Hint:</strong> When you are using the modules in <strong>Playbooks</strong> you need to specifiy the whole objects <code>ansible.windows.win_service_info</code> </li>
 </ul>
- ![image](https://github.com/Razichennouf/ansible_winrm/assets/77803582/8469b680-0e4f-4815-8d9c-dd06bad9b59d)
+![image](https://github.com/Razichennouf/ansible_winrm/assets/77803582/c6f114df-3550-44d9-b5c7-c166037a276d)
+
 
 
 <p>By leveraging these utilities, WinRM management becomes a breeze, and your environment gains enhanced security, efficiency, and consistency.</p>
