@@ -1,4 +1,4 @@
-# ansible_winrm
+# Winrm management made easier : Don't panic now when getting windows platform ready for automation with ansible
 
 <h1>Menu:</h1> 
 
