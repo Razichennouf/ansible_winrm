@@ -32,7 +32,10 @@ Tested on : 5.1.20348.1850 Powershell Version
     <li><strong>Visual Feedback:</strong> Interactive menu-driven design with ANSI color coding provides clear status updates and prompts.</li>
 </ul>
 <h2>Ansible Collection : </h2>
-<code>ansible-galaxy collection install ansible.windows</code>
+<ul>
+    <li> <code>ansible-galaxy collection install ansible.windows</code></li>
+</ul>
+
 
 <p>By leveraging these utilities, WinRM management becomes a breeze, and your environment gains enhanced security, efficiency, and consistency.</p>
 
