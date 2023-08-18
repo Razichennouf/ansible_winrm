@@ -10,7 +10,7 @@ This script provides a comprehensive set of automation utilities for managing Wi
 
 .AUTHOR
 Razi chennouf
-
+#>
 function Enable-PowerShellRemoting {
     Enable-PSRemoting -Force
     Write-Host "PowerShell Remoting Enabled"
@@ -374,4 +374,3 @@ do {
     }
     pause
 } until ($input -eq 'Q')
-#>
