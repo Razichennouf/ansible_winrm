@@ -1,4 +1,5 @@
-# Winrm management made easier : This script empowers you to effortlessly configure and manage WinRM settings, certificates, firewall rules, and user accounts – all essential components for a successful Ansible integration. No more manual trial and error; our automation utilities handle the complexity, leaving you with a reliable, consistent, and secure environment ready to power your Ansible-driven operations.
+# Winrm management made easier : 
+This script empowers you to effortlessly configure and manage WinRM settings, certificates, firewall rules, and user accounts – all essential components for a successful Ansible integration. No more manual trial and error; our automation utilities handle the complexity, leaving you with a reliable, consistent, and secure environment ready to power your Ansible-driven operations.
 
 <h1>Menu:</h1> 
 
