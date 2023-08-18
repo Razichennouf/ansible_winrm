@@ -40,6 +40,14 @@ Tested on : 5.1.20348.1850 Powershell Version
 
 ![image](https://github.com/Razichennouf/ansible_winrm/assets/77803582/c6f114df-3550-44d9-b5c7-c166037a276d)
 
+<h1>Remotely deploy the script : </h1>
+    <ol>
+        <li><strong>Infrastructure as Code (IaC):</strong> Traditional setups require manual configurations, which can be error-prone and inconsistent. With IaC, we codify our infrastructure, ensuring consistency across deployments and minimizing human errors.</li>
+        <li><strong>Userdata in AWS:</strong> AWS allows for <code>userdata</code> to be passed to EC2 instances upon their creation. This script, when used as part of that <code>userdata</code>, ensures that our Windows machines start up with the correct configurations every time, right out of the box.</li>
+        <li><strong>PowerShell:</strong> Windows' native scripting language, PowerShell, offers a rich suite of capabilities. By embedding PowerShell commands within our deployment strategy, we leverage its full potential, ensuring our Windows environments are tailored precisely to our needs.</li>
+    </ol>
+
+
 <p>By leveraging these utilities, WinRM management becomes a breeze, and your environment gains enhanced security, efficiency, and consistency.</p>
 
 <p><strong>Important:</strong> While these utilities simplify WinRM management, remember to review and adjust configurations before deploying them in a production environment. Security and specific requirements may vary, so always ensure that settings are aligned with your organization's standards.</p>
