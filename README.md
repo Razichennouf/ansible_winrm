@@ -46,7 +46,7 @@ Tested on : 5.1.20348.1850 Powershell Version
         <li><strong>Userdata in AWS:</strong> AWS allows for <code>userdata</code> to be passed to EC2 instances upon their creation. This script, when used as part of that <code>userdata</code>, ensures that our Windows machines start up with the correct configurations every time, right out of the box.</li>
         <li><strong>PowerShell:</strong> Windows' native scripting language, PowerShell, offers a rich suite of capabilities. By embedding PowerShell commands within our deployment strategy, we leverage its full potential, ensuring our Windows environments are tailored precisely to our needs.</li>
     </ol>  
-    ```
+    <pre>
         <Powershell>
         $newPassword = "your_new_password"
         $securePassword = ConvertTo-SecureString $newPassword -AsPlainText -Force
@@ -54,7 +54,7 @@ Tested on : 5.1.20348.1850 Powershell Version
         # Change the password
         Set-LocalUser -Name $adminUser -Password $securePassword
         </Powershell>
-      ```  
+    </pre>
 
 <p>By leveraging these utilities, WinRM management becomes a breeze, and your environment gains enhanced security, efficiency, and consistency.</p>
 
