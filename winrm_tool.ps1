@@ -261,20 +261,21 @@ function Show-Menu {
     )
 	Clear-Host
 	# Prompt user for input
+ 	Write-Host -ForegroundColor "* | Everything Ends with a star* should be mandatory "
 	Write-Host -ForegroundColor 14 "| You need to give attention if you are using AWS or you does not use a CP check the HINT"
 	Write-Host "|____ If you are using AWS, Before starting Go to SG (Security Group) and enable WINRM-HTTPS port"
 	Write-Host "|____ If you are not using AWS choose option 5 to configure the Local firewall rules"
 	Write-Host ""
     Write-Host "================ $Title ================"
 
-    Write-Host "1: Enable PowerShell Remoting"
-    Write-Host "2: Configure WinRM Client"
-    Write-Host "3: Configure WinRM Server"
-    Write-Host "4: AWS User Specific Configuration <-- Only when using AWS"
-    Write-Host "5: Configure Firewall"
+    Write-Host "1: Enable PowerShell Remoting*"
+    Write-Host "2: Configure WinRM Client*"
+    Write-Host "3: Configure WinRM Server*"
+    Write-Host "4: AWS User Persisting Password <- Only when using AWS"
+    Write-Host "5: Configure Firewall*"
     Write-Host "6: Setup Automation User"
-    Write-Host "7: Manage Certificates"
-    Write-Host "8: Configure WinRM"
+    Write-Host "7: Manage Certificates*"
+    Write-Host "8: Configure WinRM*"
     Write-Host "================ $Title2 ================"
     Write-Host "9: Delete all winrm listeners" 
     Write-Host "10: List all available Certificates"
